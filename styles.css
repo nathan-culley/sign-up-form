@@ -8,22 +8,28 @@
     height: 100vh;
     grid-column: "leftpanel";
     position: relative;
+    background-image: url(/resources/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+
 }
 
 #rightpanel {
     border: blue solid 2px;
-    height:100vh;
+    height: 100vh;
     grid-column: "rightpanel";
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
+    background-color: rgb(245, 245, 245);
 }
 
 #banner {
-    height: 100px;
+    height: 150px;
     width: 100%;
     position: absolute;
     top: 200px;
     border: green solid 1px;
+    background-color: gray;
+    opacity: 0.4;
 }
 
 #description {
