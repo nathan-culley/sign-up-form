@@ -1,0 +1,39 @@
+#content {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+#leftpanel {
+    border: red solid 2px;
+    height: 100vh;
+    grid-column: "leftpanel";
+    position: relative;
+}
+
+#rightpanel {
+    border: blue solid 2px;
+    height:100vh;
+    grid-column: "rightpanel";
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#banner {
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 200px;
+    border: green solid 1px;
+}
+
+#description {
+    border: green solid 1px;
+}
+
+#user-inputs {
+    border: green solid 1px;
+}
+
+#accounts {
+    border: green solid 1px;
+}
