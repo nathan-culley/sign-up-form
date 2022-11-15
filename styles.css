@@ -1,6 +1,7 @@
 #content {
     display: grid;
     grid-template-columns: 2fr 3fr;
+    font-family: sans-serif
 }
 
 #leftpanel {
@@ -28,12 +29,13 @@
     position: absolute;
     top: 200px;
     border: green solid 1px;
-    background-color: gray;
-    opacity: 0.4;
+    background-color: black;
+    opacity: 0.5;
 }
 
 #description {
     border: green solid 1px;
+    position: relative;
 }
 
 #user-inputs {
@@ -44,12 +46,59 @@
     border: green solid 1px;
 }
 
+#description-text {
+    border: black solid 1px;
+    position: absolute;
+    bottom: 0;
+    margin: 50px 20px;
+    font-weight: bold;
+}
+
+#prompt {
+    font-weight: bold;
+    margin: 20px;
+}
+
 #textboxes {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: 20px;
+}
+
+#textboxes label {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 11px;
+    font-weight: bold;
+    color: darkslategray
 }
 
 .labelinput {
     display: grid;
     grid-auto-rows: auto;
+    margin: 5px 5px;
+    padding-right: 40px;
+}
+
+#create-account {
+    margin: 20px;
+}
+
+#create-account input {
+    background-color: darkolivegreen;
+    color: white;
+    padding: 8px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    box-shadow: none;
+}
+
+#current-account {
+    margin: 20px;
+}
+
+a {
+    color: darkolivegreen;
+    text-decoration: none;
+    font-weight: bold;
 }
