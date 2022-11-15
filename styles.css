@@ -43,3 +43,13 @@
 #accounts {
     border: green solid 1px;
 }
+
+#textboxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.labelinput {
+    display: grid;
+    grid-auto-rows: auto;
+}
