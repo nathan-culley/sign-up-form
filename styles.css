@@ -44,7 +44,7 @@
 
 #bannerimage {
     /* border: red solid 2px; */
-    display: inline-block;
+    display: block;
     max-height: 10vmax;
     margin-left: 15%;
     float: left;
@@ -92,10 +92,6 @@
     /* border: green solid 1px; */
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 3px 3px 3px lightgray;
-}
-
-#accounts {
-    /* border: green solid 1px; */
 }
 
 #description-text {
