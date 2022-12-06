@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: "norseBold";
-    src: url(sign-up-form/resources/Norse-Bold.otf);
+    src: url(resources/Norse-Bold.otf);
 }
 
 #leftpanel {
@@ -14,7 +14,7 @@
     height: 100vh;
     grid-column: "leftpanel";
     position: relative;
-    background-image: url(sign-up-form/resources/halie-west-25xggax4bSA-unsplash.jpg);
+    background-image: url(resources/halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
 
 }
